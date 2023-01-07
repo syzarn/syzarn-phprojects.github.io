@@ -1,0 +1,31 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banner {
+    display: flex;
+    background-color: dodgerblue;
+    background-image: url(assets/media/banner3.png);
+    background-size: cover;
+    /* padding: 216px 364px; */
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+.head-text {
+    text-align: right;
+    border: 525px 228px;
+    color: white;
+}
+
+.head-para {
+    text-align: right;
+    color: white;
+}
+
+ul {
+    /* list-style-image: url('assets/media/green-checkmark.jpg'); */
+    list-style-type: "✅";
+    display: inline-block;
+}
